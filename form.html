@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            padding: 40px;
+            transform: translate(-50%, -50%);
+            background: rgba(230, 233, 142, 0.673);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+            border-radius: 10px;
+        }
+        .input{
+            height: 45px;
+            width: 280px;
+            border-radius: 10px;
+            border: none;
+            margin: 5px;
+            font-size: 1.2rem;
+        }
+        #btn{
+            background-color: #1479c7c6;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+  
+    <form action="form.php" method="post">
+       <div class="container">
+        <h1>Register</h1>
+        <div>
+            <input type="text" name="name" id="name" class="input" placeholder="Name">
+        </div>
+        <div>
+            <input type="email" name="email" id="email" class="input" placeholder="Email">
+        </div>
+        <div>
+            <input type="password" name="password id=" password" class="input" placeholder="Password">
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Sign up" class="input"  id="btn">
+        </div>
+
+       </div>
+    </form>
+</body>
+
+</html>
